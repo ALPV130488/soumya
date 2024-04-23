@@ -1,0 +1,69 @@
+ON-1,OFF-0--------------------->Ascii,Unicode....
+
+a-97--10100101010
+
+programming lang ---- programs(set of instructions)
+
+
+s.l:-designing website
+
+
+p.l:-developing software
+
+								computer lang
+								
+						scripting lang		programming lang
+									
+										pop				oop
+						
+									basic,cobal....		java,.net,python,c++,......
+
+
+security:-Abstraction,Encapsulation
+
+
+performance :-Inheritance,Polymorphism
+
+
+java:-
+
+
+paltform independency:-
+
+
+Garbage collector:-
+
+
+				history:-
+				
+				greentalk(.gt)------------>oak------------->java(.java)
+				
+				sunmicro sys-------------------------------->oracle
+				
+				jdk 1.0-------------------------------------->jdk 22
+				
+				
+	cmd>	java --version
+	
+			
+			3 editions
+			
+			
+			jse/j2se :- (no client-server)=standalone app's  --core java
+			
+			jee/j2ee :-(client -server) = distributed app's ---core java;Adv java
+			
+			jme/j2me :-mobile app's ----micro details of core java
+				
+				
+				
+26
+
+53-keywords		3-reserved liters  2-unused keywords		48
+
+
+				
+				
+				
+				
+				
