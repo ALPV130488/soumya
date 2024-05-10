@@ -62,8 +62,340 @@ Garbage collector:-
 53-keywords		3-reserved liters  2-unused keywords		48
 
 
+shortcuts:-
+==========
+	
+	suggestions  ---> ctrl+space
+	
+	comments     ---->ctrl +/
+	
+	format   --------->ctrl+shift+for
+	
+	import     -------->ctrl+shift+o
+
+
+
+		
+		
+		datatypes:-
+		=========
+		
+					(1)primitive (pre defined)
+					
+					(2)non-primitive (user defined)
+					
+					
+		variables:-
 				
 				
+		datatype varname;	//declaration
+		
+		
+		datatype varname = value ;  //initialization
+		
+		
+		local variables					global variables
+				
+									static 			instance
+									
+									
+	syntax:-
+	=======
+	
+static :-  static datatype varname = value ;
+	
+instance :- datatype varname = value ;	
+	
+	access:-
+	=======
+	
+static :- static prop's can be accessed by the class reference
+
+instance :-instance prop's can be accessed by the object reference	
+
+				syntax:
+				
+				classname objectname = new classname();
+
+	
+	memory space:-
+	============
+static :- it will gets the memory space only once when the class loads into the jvm
+
+instance :it will gets the memory space for every object creation	
+	
+	in memory:-
+	============
+	
+static :- method area 
+
+instance :- heap area
+	
+	usage:-
+	=======
+	
+static :- common data		
+
+instance :- unique data
+
+
+	operators:-
+	
+			a + b
+			
+
+ULTRA AB
+
+Uniary   ++;--,-		a++ ===>a=a+1
+
+Logical		&,|
+
+Terinary	(true)? a:b 
+
+Relational 	>,<,<=
+
+Assignment =,=+			a=+6 ---->a=a+6
+
+Arithematic  +,-,/ ,*,%
+
+Bitwise   &,|
+
+
+		methods:-set of statements altogether will performs the same task.
+		
+		
+		syntax/signature:-
+			
+			accessmodifier  returntype metname(params...){
+			
+			//(body)method implmentation------->return 
+			
+			}
+			
+	2 types :-signature
+	
+	
+	(1)static
+	
+	
+			accessmodifier  static returntype metname(params...){
+			
+			//(body)method implmentation------->return 
+			
+			}
+	
+	(2)dynamic
+	
+			accessmodifier  returntype metname(params...){
+			
+			//(body)method implmentation------->return 
+			
+			}
+			
+			
+			
+			
+			class:-  var + methods  + constructor
+			
+			
+			jdk library :-jar---->	packages---->classess
+			
+			
+			
+oops :-
+
+	Inheritance:-Accquring parent class prop's to a child class
+	
+				*CODE REUSABILITY
+			
+				
+				extends 				implements
+				
+			class-->class				class---->interface
+			interface-->interface
+			
+	class A{	------>parent/super
+	
+	100 methods
+	
+	add(int a,int b){
+	a+b;
+	}
+	
+	}
+	
+	class B {	---->sub/child/base
+	
+	100 methods
+	
+	add(int a,int b){
+	a*b;
+	}
+	
+	}
+	
+	
+	class c extends A,B{
+	
+	obj.add
+	
+	}
+	
+	*the default package for ever java file is "java.lang"
+	*the default parent class for every java class is "java.lang.Object class".
+	
+	
+	*In java MI is supported @class level
+	
+	*In java MI is supported @interface level
+	
+	
+	methods:- 2 types(body/met implmentation)------->
+	
+	
+	(1)concrete methods  :- will have method implmentation/body
+	
+		accessmodifier  returntype metname(params...){
+			
+			//(body)method implmentation------->return 
+			
+			}
+	
+	
+	(2)abstract methods :- will not have method implmentation/body
+		
+		accessmodifier abstract returntype metname(params...);
+		
+	
+	class  :- it's the collection of only concreate methods
+	
+	abstract class :- it's the combination of both concreate nd abstract methods
+
+	interface :- it's the collection of only abstract methods
+	
+	
+	Abstraction:- Hiding the our personal data.
+	
+			***Security
+			
+	interface -100%			abstract class-(0-100%)			class-0%
+	
+	
+	Polymorphism:-same method name but uses in different ways.
+	
+				* Code reusability
+	
+	(1)	MethodOverloading :-same method name but difference is in it's parameters
+	
+							(a)type of params..
+							(b)no:-of params...
+							(c)order of params..
+							
+	
+	(2)MethodOverriding:-method name is same but difference is in it's implmentation/body
+	
+	
+	class Parent{
+	100Cr()
+	
+	marriage(){
+	kajol;
+	
+	}
+	
+	100 methods
+	
+	}
+	
+	class Child extends Parent{
+	100Cr()
+	
+	@Override
+	marriage(){
+	deepika;
+	
+	}
+	
+	100 methods
+	
+	
+	}
+	
+	Encapsulation:-wrapping up of all the similar prop's into a single unit.
+	=============
+						*security
+	
+	accessmodifier:-
+	
+	
+	public  protected default private
+	
+	
+	costructor:-To initiaze the objects
+	===========
+	
+			syntax:-
+			
+				accessmodifier classname(){		//default constr
+				
+				//body
+				}
+				
+				parametrized const :-
+				
+				accessmodifier classname(params...){		//parametrized constr
+				
+				//body
+				}
 				
 				
-				
+		final :- once the prop's are declared as final we cant:-
+				(1)inherit a class
+				(2)alter the var value
+				(3)override a method body
+		
+		 super:-Used to access the parent  class properties.
+		 this:-Used to access the current class properties.
+		 
+		 
+		userdefined exception:-
+		
+		 1.it must be the child class for the exception classes
+		 
+		 
+		 
+		 Arrays:-It's the homogenous collection of data  we can store in a container 
+		 ======
+		 
+		 1.Can stores Only homogenous data.
+		 
+		 2.Array are fixed in size (we can't change)
+		 
+		 
+		 3.No utility methods.
+		 
+		 
+		 
+		 creation of an array:-
+		 
+		 (1)	int arrname[] = {1,2,3,4,5,5,65,7,7,7};
+		 
+		 (2)     int arranme[] = new int[12];
+		 
+					arrname[6] = 12;
+					
+					
+			(3)	int arrname[] = new int[]{1,2,3,4,5,5,65,7,7,7};
+		 
+		 
+		 
+		 Collections Framework:-
+		 =====================
+		 
+		 1.Can stores  homogenous/heterogenous data.
+		 
+		 2.collections are not fixed in size (we can change)
+		 
+		 3.Utility methods.
+		 
+		 
