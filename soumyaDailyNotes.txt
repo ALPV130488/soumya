@@ -399,3 +399,159 @@ oops :-
 		 3.Utility methods.
 		 
 		 
+		 
+		 hashset :- It will follows it's own order
+		 
+		 lhs   :-It will follows the insertion order
+		 
+		 treeset :-It will follows alphabetical
+		 
+		 
+		 String :-
+		 =======
+		 
+		 
+		 String varname = value ;		------->String literal
+		 
+		 Integer value = new Integer(2343);
+		 
+		 String varname = new String("apple");
+		 
+		 
+		 String 			StringBuffer			StringBuilder
+		
+		(immutable)			mutable						mutable	
+		
+							sync						not sync
+							
+		File handling:- java.io
+		
+						
+						To create a file :- File 
+						
+						
+						
+						To write into a file :-	FileWriter
+												PrintWriter
+												BufferedWriter
+						
+						To read from a file   :- FileReader
+												BufferedReader
+												
+												
+						
+   0   --end of the file
+   -1
+   
+   
+   
+   Serialization:-
+   
+   
+		
+		
+		
+		
+				tcs hyderabad					tcs bnglr
+				
+				Employee 
+				
+				emp-details
+				
+				
+		Interface   --------->It's the complete collection of abstract methods
+
+		Marker Interface   -----> 0 methods
+		
+		Functional Interface -----> 1 method  (sam-single abstract method)
+		
+								DATABASE
+								========
+		
+		apple		345
+		
+		roses		546
+												
+		oranges		546
+		
+		tulips		457	
+
+
+	DATA:-		raw info 
+	
+DATABASE :- To store (permenantly & securely)the data for the future access in an organized way.
+					
+					
+	RDBMS :-Rows(Records) + columns	(fields)	
+
+Query's :-To do any operation we are going to write query.(SQL)	
+
+5 TYPES :-
+
+DDL(Data Definition Lang):-create,alter,drop,truncate,rename
+
+DML(Data Manipulation Lang):-insert,update,delete
+
+DRL(Data Retrival Lang):-select
+
+DCL (Data Control Lang):-grant,revoke
+
+TCL(Transaction Control Lang):-commit(ctrl+s),rollback(undo-ctrl+z)
+
+To create a user
+
+cmd>
+
+(1)conn /as sysdba
+
+(2)create user username identified by password;
+
+(3)grant connect, resource to username;
+
+(4)conn username/password;
+
+DDL :-create,alter,drop,truncate ,rename			--------->AUTOCOMMITED
+========================================
+
+create a table:-
+cmd>create table empployee(eid number(10),ename varcahr2(10));
+
+to remove a column:-
+cmd>alter table employee drop column eid;
+
+to add a column:-
+cmd>alter table employee add columnname datatype;
+
+to rename a column :-
+cmd>alter table employee rename column ename to Name;
+
+to change the datatype of a column:-
+cmd>alter table employee modify eid varchar2(10);
+
+to delete a table:-
+cmd>drop table tablename;
+
+to remove the table's (rows)data:-
+cmd>truncate table tablename;
+
+drop  :- deletes entire table with records(rows).
+
+truncate  :- only deletes the records but not table.
+
+DML :- insert,update,delete							----------->NOT AUTOCOMITTED
+===========================
+
+to insert the data into the table:-
+cmd>insert into employee values(12,'apple');
+
+to update the data :-
+cmd>update employee set esal=2398347 where eid=12;	
+
+
+			
+					
+					
+					
+					
+					
+					hello soumya hor are you?
