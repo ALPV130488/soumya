@@ -550,8 +550,27 @@ cmd>update employee set esal=2398347 where eid=12;
 
 			
 					
+								JDBC:-(Java Database Connectivity)
+								=====
+		(1)Loading Driver classes
+
+		(2)Creating Connetion
+		
+		(3)Create a Statement
+		
+		(4)Exceute the statement
+		
+		(5)Close the connections
+		
+		
+		
+								
+		c-create
+		r-retrive
+		u-update
+		d-delete 
+		
 					
 					
 					
 					
-					hello soumya hor are you?
