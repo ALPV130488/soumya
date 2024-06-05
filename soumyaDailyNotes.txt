@@ -570,7 +570,53 @@ cmd>update employee set esal=2398347 where eid=12;
 		u-update
 		d-delete 
 		
+			
+limitations:-			
+		(1)	It's having Queries
+
+		(2)	Table should be created manually
+		
+		(3)Duplicate code
+		
+		(4)db prop's are in the same file
 					
-					
-					
-					
+	
+	
+	jpa(java persistence api):-specifications
+	------------------------
+	
+to overcome all the	limitations from jdbc:-	
+		
+		(1)	No Queries
+
+		(2)	No Table creation
+		
+		(3)No Duplicate code
+		
+		(4)db prop's should be in diff file
+		
+		(5)No exception handling
+		
+ORM(Object Relational Mapping) Tools :-hibernate,ecllipse link, toplink,ibatis......
+		
+		class --------> table
+		
+		fields/varaibles--->columns
+		
+		objects -------->rows
+		
+		EntityManagerFactory 
+		
+		EntityManager - sql equivalent queries
+		
+		insert  - persist();
+		
+		update -- merge();
+		
+		select -- find();
+		
+		delete -- remove();
+		
+		
+		maven:- it's build tool.
+		------
